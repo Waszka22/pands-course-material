@@ -1,0 +1,2 @@
+# weekly task
+print("helloword")
