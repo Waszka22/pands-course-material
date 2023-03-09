@@ -32,4 +32,4 @@ while your_number !=1:
         #print(int(your_number))
         score.append(your_number)
 
-print([x for x in score])
+print([int(x) for x in score])
