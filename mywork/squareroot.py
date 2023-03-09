@@ -1,4 +1,5 @@
 #Weekly task 6
+# Author Agnieszka Waszczuk
 #Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 #You should create a function called <tt>sqrt</tt> that does this.
 #I am asking you to create your own sqrt function and not to use the built in functions x ** .5 or math.sqrt(x).
@@ -12,8 +13,11 @@
 
 import math
 
-positive_number = input('Please enter a positive number: ')
+positive_number = float(input('Please enter a positive number: '))
 
-a = 27
-b = 39
-math.sqrt(a ** 2 + b ** 2)
+while positive_number <0 :
+    print("Your number is negative, try again! ")
+    positive_number = float (input('Please enter a positive number: '))
+
+result = math.sqrt(float(positive_number))
+print(f'The square root of {positive_number} is : {result}')
