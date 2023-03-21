@@ -3,3 +3,8 @@
 # storing data in a CSV format
 #
 # Author: Andrew Beatty
+
+
+i = 44
+
+print(i)
