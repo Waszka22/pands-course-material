@@ -10,14 +10,17 @@
 #Please enter a positive number: 14.5
 #The square root of 14.5 is approx. 3.8.
 
-
+# import the math modue
 import math
 
+# Request enter positive number 
 positive_number = float(input('Please enter a positive number: '))
 
+# The number is less than 0, request add once again
+# The 78number is positive 
 while positive_number <0 :
     print("Your number is negative, try again! ")
     positive_number = float (input('Please enter a positive number: '))
-
+# Return the square root
 result = math.sqrt(float(positive_number))
 print(f'The square root of {positive_number} is : {result}')

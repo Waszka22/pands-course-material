@@ -1,4 +1,4 @@
-# hello2
+# Weely task 1
 # Author : Agnieszka Waszczuk 
 # messing with inputs 
 
