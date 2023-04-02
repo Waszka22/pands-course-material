@@ -10,7 +10,7 @@ def clearSqrBrackets(string):
     return 
 
 path = './data/'
-logFilename = path + 'access.log'
+logFilename = path + 'access.log.demo'
 
 colNames= ('ip',
     'dash1', 
