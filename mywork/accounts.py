@@ -4,10 +4,14 @@
 # Reference https://realpython.com/python-input-output/
 
 # Request enter 10 digits account number 
+# Use input() function allows user input.
 account_no = input('Please enter an 10 digit account number:')
 
 # Use loop to check if the user put the correct number of digits
+# Use funtion len,  returns the length of an object values 
+# Use != operator not equal. This !=10 return True if its 10 numbers , otherwise fals if less or more than 10 
 # If no 10-digit request numbers have been entered, it will be prompted again 
+
 while len (account_no) !=10:
     print(f'\nYou entered {len(account_no)} digits. You need to enter 10 digits') 
     print('Plase try again')
