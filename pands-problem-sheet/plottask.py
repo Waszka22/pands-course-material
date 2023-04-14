@@ -10,23 +10,6 @@
 #     https://www.w3schools.com/python/matplotlib_plotting.asp
 
 
-# generate normal distribution of a 1000 values 
-#import numpy import random
-#import matplotlib.pyplot as plot
-
-#from numpy import random
-#x = random.normal(size=(0, 10000))
-
-#x = random.normal(loc=5, scale=2, size=(0, 1000))
-
-#print(x)
-
-#mean = 5
-#standard_deviation = 5
-
-#import numpy
-
-
 # import the numpy and matplotlib.pyplot
 import numpy as np
 import matplotlib.pyplot as plt
