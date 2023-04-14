@@ -12,12 +12,12 @@
 # Work in progress!!!!
 # generate normal distribution of a 1000 values 
 import numpy 
-import matplotlib.pyplot as plot
+#import matplotlib.pyplot as plot
 
-from numpy import random
-x = random.normal(size=(0, 10000))
+#from numpy import random
+#x = random.normal(size=(0, 10000))
 
-x = random.normal(loc=5, scale=2, size=(0, 1000))
+#x = random.normal(loc=5, scale=2, size=(0, 1000))
 
 #print(x)
 
