@@ -1,4 +1,4 @@
-# Weekly Tast 5 
+# Weekly Tast 05 
 # Authore Agnieszka Waszczuk 
 # REF. https://pynative.com/python-get-the-day-of-week/
 #   
@@ -10,6 +10,7 @@
 
 
 # import the time module
+
 import datetime
 
 weekday = datetime.datetime.today().weekday()
