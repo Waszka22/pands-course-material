@@ -1,3 +1,0 @@
-gmail = {
-    'password' : "adhsfgfl"
-}
